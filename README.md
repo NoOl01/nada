@@ -58,7 +58,7 @@ foreach(Clients c in cl)
 string strPattern=@"(\+7|8|\b)[\(\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[)\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)";
 if (Regex.IsMatch(message.Text, strPattern, RegexOptions.IgnoreCase))
 ```
-#Токен для бота
+# Токен для бота
 ```
 7080102638:AAEctYLr_mdAuHjl-037eGg_7aVW09LGSWw
 ```
