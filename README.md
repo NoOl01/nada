@@ -1,5 +1,5 @@
 # nada
-# Кодировщик
+Кодировщик
 ```
 class PasswordEncoderDecoder
 {
@@ -31,7 +31,7 @@ class PasswordEncoderDecoder
 }
 ```
 
-#отправка сообщений через WPF
+# отправка сообщений через WPF
 ```
 var cl = db.Clients.ToList();
 var mail = db.Mails.ToList();
