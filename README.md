@@ -1,5 +1,5 @@
 # nada
-Кодировщик
+# Кодировщик
 ```
 class PasswordEncoderDecoder
 {
@@ -53,7 +53,7 @@ foreach(Clients c in cl)
     }
 }
 ```
-#Проверка что это номер телефона
+# Проверка что это номер телефона
 ```
 string strPattern=@"(\+7|8|\b)[\(\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[)\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)[\s-]*(\d)";
 if (Regex.IsMatch(message.Text, strPattern, RegexOptions.IgnoreCase))
